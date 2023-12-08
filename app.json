@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "WeatherApp",
-    "slug": "WeatherApp",
+    "slug": "weatherapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.princeamir.weatherapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "90edc8cb-5017-4594-88a3-ac586ed7ad22"
+      }
+    },
+    "owner": "princeamir"
   }
 }
